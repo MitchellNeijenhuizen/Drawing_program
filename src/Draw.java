@@ -21,7 +21,6 @@ public class Draw extends JFrame implements MouseListener {
 
         for (Shapes item : figureStorage) {
             item.draw(g);
-
         }
     }
     public static void main(String[] args) {
